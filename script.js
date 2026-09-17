@@ -1,0 +1,1 @@
+document.getElementById('launch').addEventListener('submit',e=>{e.preventDefault();document.getElementById('message').textContent="Thanks — you're on the Lightning Certs launch list.";e.target.reset()});const m=document.querySelector('.hamburger'),n=document.querySelector('.nav nav');m.addEventListener('click',()=>{n.classList.toggle('open')});
