@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#f7f8fb">
 <title>Lightning Certs — Electrical certification. Reimagined.</title>
-<meta name="description" content="Lightning Certs is an electrical certification app built to make certificates simpler to complete, manage and share.">
-<link rel="preload" as="image" href="workspace.png">
+<meta name="description" content="Lightning Certs is a cleaner way for electricians to complete, manage and deliver professional electrical certificates.">
+<link rel="preload" as="image" href="assets/workspace.png">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -23,6 +23,7 @@
 </header>
 
 <main id="top">
+
 <section class="hero">
   <div class="hero-copy">
     <p class="eyebrow">LIGHTNING CERTS</p>
@@ -32,12 +33,14 @@
       <a class="cta" href="#launch">Get Lightning Certs</a>
       <a class="outline" href="#experience">See the app</a>
     </div>
+    <p class="hero-note">Built for the way electricians actually work.</p>
   </div>
+
   <div class="hero-device">
     <div class="device-glow"></div>
-    <div class="device">
+    <div class="device hero-phone">
       <div class="screen">
-        <img src="workspace.png" alt="Lightning Certs Workspace on iPhone">
+        <img src="assets/workspace.png" alt="Lightning Certs Workspace on iPhone">
       </div>
     </div>
   </div>
@@ -51,10 +54,23 @@
     </div>
     <p class="copy">Lightning Certs is designed around the job in front of you. Start a certificate, move through the sections, record your test results and finish with a professional PDF.</p>
   </div>
+
   <div class="feature-cards">
-    <article><span class="num">01</span><h3>Start quickly</h3><p>Find certificates, customers and jobs from one Workspace.</p></article>
-    <article><span class="num">02</span><h3>Work step by step</h3><p>Clear sections and a visible next step keep the workflow moving.</p></article>
-    <article><span class="num">03</span><h3>Finish professionally</h3><p>Preview, share and keep the finished certificate with the job.</p></article>
+    <article>
+      <span class="num">01</span>
+      <h3>Start quickly</h3>
+      <p>Find certificates, customers and jobs from one Workspace.</p>
+    </article>
+    <article>
+      <span class="num">02</span>
+      <h3>Work step by step</h3>
+      <p>Clear sections and a visible next step keep the workflow moving.</p>
+    </article>
+    <article>
+      <span class="num">03</span>
+      <h3>Finish professionally</h3>
+      <p>Preview, share and keep the finished certificate with the job.</p>
+    </article>
   </div>
 </section>
 
@@ -62,44 +78,58 @@
   <div class="showcase-copy">
     <p class="eyebrow">02 — CHOOSE YOUR CERTIFICATE</p>
     <h2>One place for the certificates you actually use.</h2>
-    <p class="copy">Create the right certificate without hunting through menus or separate paperwork.</p>
+    <p class="copy">Start with the certificate you need, then move through a focused workflow built for the job.</p>
     <ul class="checks">
       <li>EIC — Electrical Installation Certificate</li>
       <li>Minor Works</li>
-      <li>EICR — Periodic inspection and condition reporting</li>
+      <li>EICR</li>
       <li>Solar PV</li>
       <li>EV Charging</li>
     </ul>
   </div>
+
   <div class="shot phone-shot">
-    <img src="new-certificate.png" alt="Lightning Certs New Certificate screen showing EIC, Minor Works, EICR, Solar PV and EV Charging">
+    <div class="phone-frame">
+      <img src="assets/new-certificate.png" alt="Lightning Certs certificate selection screen">
+    </div>
   </div>
 </section>
 
 <section class="showcase dark">
   <div class="shot phone-shot">
-    <img src="certificate-progress.png" alt="Lightning Certs certificate progress screen with the next step">
+    <div class="phone-frame">
+      <img src="assets/certificate-progress.png" alt="Lightning Certs certificate progress screen with the next step">
+    </div>
   </div>
+
   <div class="showcase-copy">
     <p class="eyebrow yellow">03 — KEEP MOVING</p>
-    <h2>Know exactly what comes next.</h2>
-    <p class="copy">Certificate progress is visible as you work, with a clear next step instead of a maze of screens.</p>
-    <div class="quote-card"><strong>Next step</strong><span>Complete Client Details</span><b>›</b></div>
+    <h2>Know exactly<br><span>what comes next.</span></h2>
+    <p class="copy">Certificate progress stays visible as you work, with a clear next step instead of a maze of screens.</p>
+    <div class="quote-card">
+      <strong>Next step</strong>
+      <span>Complete Client Details</span>
+      <b>›</b>
+    </div>
   </div>
 </section>
 
 <section class="output">
   <div class="output-head">
     <p class="eyebrow">04 — PROFESSIONAL OUTPUT</p>
-    <h2>From job on site<br>to certificate ready.</h2>
+    <h2>From job on site<br><span>to certificate ready.</span></h2>
     <p class="copy">When the work is finished, Lightning Certs turns the completed information into a clear certificate you can preview and share.</p>
   </div>
+
   <div class="output-grid">
-    <div class="ready-card">
-      <img src="certificate-ready.png" alt="Lightning Certs certificate ready screen with Preview PDF and Share">
+    <div class="ready-wrap">
+      <div class="phone-frame small-phone">
+        <img src="assets/certificate-ready.png" alt="Lightning Certs certificate ready screen with Preview PDF and Share">
+      </div>
     </div>
     <div class="pdf-card">
-      <img src="pdf-preview.png" alt="Lightning Certs professional PDF certificate preview">
+      <div class="pdf-top"><span>LIGHTNING CERTS</span><b>PDF PREVIEW</b></div>
+      <img src="assets/pdf-preview.png" alt="Lightning Certs professional electrical certificate PDF preview">
     </div>
   </div>
 </section>
@@ -109,13 +139,20 @@
     <p class="eyebrow">05 — PROPERTY HISTORY</p>
     <h2>Come back to a property<br><span>with the history still there.</span></h2>
     <p class="copy">Keep customers, properties and completed certificates together so previous work is easier to find when you're back on site.</p>
-    <div class="history-pills"><span>Certificates</span><span>Customers</span><span>Properties</span><span>Photos</span><span>Job history</span></div>
+
+    <div class="history-pills">
+      <span>Certificates</span>
+      <span>Customers</span>
+      <span>Properties</span>
+      <span>Photos</span>
+      <span>Job history</span>
+    </div>
   </div>
 </section>
 
-<section class="how">
-  <p class="eyebrow">HOW IT WORKS</p>
-  <h2>Three steps.<br>One clean workflow.</h2>
+<section class="how" id="how">
+  <p class="eyebrow">06 — SIMPLE BY DESIGN</p>
+  <h2>Three steps.<br><span>One clean workflow.</span></h2>
   <div class="steps">
     <div><b>01</b><h3>Start</h3><p>Choose the certificate and open the job.</p></div>
     <div><b>02</b><h3>Complete</h3><p>Move through the information and test results.</p></div>
@@ -123,13 +160,25 @@
   </div>
 </section>
 
-<section class="section faq" id="faq">
-  <p class="eyebrow">QUESTIONS</p>
+<section class="faq section" id="faq">
+  <p class="eyebrow">07 — QUESTIONS</p>
   <h2>Frequently asked.</h2>
-  <details><summary>Which certificates are supported?</summary><p>The current app includes EIC, Minor Works, EICR, Solar PV and EV Charging workflows.</p></details>
-  <details><summary>Can I keep customer and property history?</summary><p>Lightning Certs is designed to keep customers, properties and certificates together for repeat visits.</p></details>
-  <details><summary>Can I preview the finished certificate?</summary><p>Yes. A completed certificate can be previewed as a PDF before you share it.</p></details>
-  <details><summary>Is the app designed for iPhone?</summary><p>Yes. The current interface is built with a focused iPhone workflow, with an iPad experience alongside it.</p></details>
+  <details>
+    <summary>Which certificates are supported?</summary>
+    <p>The app is built around EIC, Minor Works, EICR, Solar PV and EV Charging workflows.</p>
+  </details>
+  <details>
+    <summary>Can I keep customer and property history?</summary>
+    <p>Lightning Certs is designed to keep customers, properties and certificates together for repeat visits.</p>
+  </details>
+  <details>
+    <summary>Can I preview the finished certificate?</summary>
+    <p>Yes. A completed certificate can be previewed as a PDF before you share it.</p>
+  </details>
+  <details>
+    <summary>Is the app designed for iPhone?</summary>
+    <p>Yes. The current interface is built around a focused iPhone workflow, with an iPad experience alongside it.</p>
+  </details>
 </section>
 
 <section class="launch" id="launch">
@@ -144,13 +193,23 @@
   </form>
   <small id="msg" role="status"></small>
 </section>
+
 </main>
 
 <footer>
-  <div><span class="logo">ϟ</span> <b>Lightning Certs</b><p>Electrical Certification. Reimagined.</p></div>
-  <div class="footer-links"><a href="#experience">Experience</a><a href="#certificates">Certificates</a><a href="#history">Property history</a><a href="#faq">FAQ</a></div>
+  <div>
+    <span class="logo">ϟ</span> <b>Lightning Certs</b>
+    <p>Electrical Certification. Reimagined.</p>
+  </div>
+  <div class="footer-links">
+    <a href="#experience">Experience</a>
+    <a href="#certificates">Certificates</a>
+    <a href="#history">Property history</a>
+    <a href="#faq">FAQ</a>
+  </div>
   <span>© 2026 Lightning Certs</span>
 </footer>
+
 <script src="script.js"></script>
 </body>
 </html>

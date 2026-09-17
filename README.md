@@ -1,20 +1,21 @@
-# Lightning Certs — Website v3
+# Lightning Certs — Website Redesign
 
-This version replaces the generic app mock-up with real Lightning Certs iPhone screenshots supplied for the current app UI.
+This version deliberately returns to the cleaner original Lightning Certs website structure and visual language.
 
-## Included
-- Responsive Apple-inspired marketing site
-- Real Workspace, New Certificate, certificate progress, completion and PDF screenshots
-- No demo property address
-- Certificate types: EIC, Minor Works, EICR, Solar PV and EV Charging
-- Property history section
-- FAQ and launch-list UI
-- Mobile navigation
+## What changed
+- Restored the original-style navigation, hero and section rhythm.
+- Kept the Lightning Certs yellow / turquoise / black identity.
+- Reworked the real app screenshots into consistent iPhone-style frames.
+- Reduced the feeling of a long generic SaaS landing page.
+- Removed the placeholder property address.
+- Kept the real certificate types and current app workflow.
+- Responsive for desktop, tablet and iPhone.
 
 ## Files
-- index.html
-- styles.css
-- script.js
-- assets/
+- `index.html`
+- `styles.css`
+- `script.js`
+- `assets/` — real Lightning Certs app screenshots
 
-The launch form is front-end only until an email/form provider is connected.
+## Important
+This package is a design replacement for the current website. It has not been uploaded to GitHub Pages.
