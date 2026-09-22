@@ -193,3 +193,7 @@ footer .logo{width:34px;height:34px;border-radius:10px;font-size:22px;vertical-a
   .quote-card{grid-template-columns:1fr auto}
   .quote-card strong{grid-column:1/-1}
 }
+
+
+.light-outline{border-color:rgba(255,255,255,.35);background:transparent;color:#fff}
+.launch-actions{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin-top:38px}
