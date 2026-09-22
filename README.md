@@ -1,15 +1,16 @@
 # Lightning Certs — Website Redesign
 
-This version deliberately returns to the cleaner original Lightning Certs website structure and visual language.
+This version uses the cleaner Lightning Certs visual language with a stronger product and pricing message.
 
 ## What changed
 - Restored the original-style navigation, hero and section rhythm.
 - Kept the Lightning Certs yellow / turquoise / black identity.
-- Reworked the real app screenshots into consistent iPhone-style frames.
-- Reduced the feeling of a long generic SaaS landing page.
+- Reworked the app visuals into consistent iPhone-style frames.
+- Reduced the feeling of a generic SaaS landing page and made the £10/year offer a central selling point.
 - Removed the placeholder property address.
 - Kept the real certificate types and current app workflow.
 - Responsive for desktop, tablet and iPhone.
+- Added professional £10/year pricing presentation with no per-certificate fee.
 
 ## Files
 - `index.html`
@@ -17,5 +18,5 @@ This version deliberately returns to the cleaner original Lightning Certs websit
 - `script.js`
 - `assets/` — real Lightning Certs app screenshots
 
-## Important
-This package is a design replacement for the current website. It has not been uploaded to GitHub Pages.
+## Current status
+The site is maintained directly in the GitHub repository and is intended for GitHub Pages deployment from the `main` branch root.
